@@ -78,6 +78,8 @@ namespace practiseapi.Controllers
       
         public async Task<List<empreg>> GetAll()
         {
+
+            //this is the changes
             var result = await _apiinterface.Getallempreg();
             return result;
         }
